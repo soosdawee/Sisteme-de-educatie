@@ -46,12 +46,12 @@ var config = {
             ]
         },
         {
-            id: '1',
+            id: 'intro1',
             alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'Tema educației este una dintre cele mai des dezbătute probleme de toate nivelurile societății. Cu toții trecem peste această etapă a vieții, și datorită interconectivității și a dialogului la nivel global, ne putem împărtăși experiența, părerile sau eventualele frământări legate de sistemul în care am învățat (și nu numai).',
+            description: 'Educația e privită în toată lumea drept una dintre pietrele de temelie ale unei societăți, prin care se formează calitățile viitoare ale minților, culturilor și, până la urmă, națiunilor. Cu toții trecem, mai mult sau mai puțin, printr-un sistem de educație formală, începând cu vârste fragede. Cei rămași pe dinafară sunt de obicei oamenii cei mai vulnerabili și defavorizați din societățile în care trăim.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -71,16 +71,16 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '2',
+            id: 'intro2',
             alignment: 'center',
             hidden: false,
-            title: '<h3>OCDE și Testele PISA</h3>',
-            image: 'images/logo_OECD.jpg',
-            description: '<a target="_blank" href="https://www.oecd.org/about/">Organizația pentru Cooperare și Dezvoltare Economică</a> stă de mai bine de 20 de ani în spatele testării la nivel global al elevilor în vârstă de 15 ani, aflați în clasa a IX-a, a X-a sau a XI-a, după caz. Participanții în ultima ediție au fost statele membre, statele în curs de aderare <a target="_blank" href="https://www.mae.ro/node/1481">(aici se încadrează și România)</a>, respectiv niște parteneri, în total 79 de țări. Scopul proiectului este de a raporta tendințele și progresele legate de învățământ și de a analiza cum se îmbină aptitudiniile elevilor cu factori demografici, sociali, economici și educaționali.',
+            title: '',
+            image: '',
+            description: 'Dincolo de diferențele de la cer la pământ între metodele și banii pe care fiecare țară le pune la bătaie, pentru a-și asigura un sistem de educație cât mai performant, apare însă o mare întrebare. De ce copiii din unele țări au, la nivel de medie, rezultate mai bune decât alții la învățătură, când vine vorba de teste standardizate, la fel pentru toți? ',
             location: {
-                center: [8.255119, 42.525963],
-                zoom: 5,
-                pitch: 20,
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
                 bearing: 0,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -89,19 +89,44 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 1, // change the speed at which it zooms out
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'jumpTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
         },
         {
-            id: '3',
-            alignment: 'right',
+            id: 'intro3',
+            alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'Testările trienale PISA au început în anul 2000, iar ultima ediție, cu datele procesate și publicate, este cea din 2018. <a target="_blank" href="https://www.oecd.org/pisa/data/2018database/">Chestionarele</a> se adresează atât copiilor, cât și mediului lor înconjurător (părinți, profesori, directori) și culeg nu numai date despre abilitatea lor de a citi, a înțelege, a interpreta sau a rezolva probleme, ci și despre bunăstarea sau aspirațiile lor în carieră.',
+            description: 'Panorama încearcă să caute explicații în tradiția și excepțiile unor sisteme performante de educație din lume, dar și în statutul profesorilor într-o societate, care poate determina într-o mare măsură calitatea lor profesională: cât sunt plătiți și care este rolul lor, așa cum îl percep semenii lor.',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'PISA1',
+            alignment: 'center',
+            hidden: false,
+            title: '<h3>Cum funcționează testele PISA și de ce chinezii sunt campioni </h3>',
+            image: '',
+            description: 'Testele PISA au ajuns principala metodă de a raporta și măsura, la nivel global, tendințele și progresele legate de învățământ și de a analiza cum se îmbină aptitudinile elevilor cu factori demografici, sociali, economici și educaționali.',
             location: {
                 center: [2.269630, 48.861190],
                 zoom: 10,
@@ -121,12 +146,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '4',
-            alignment: 'left',
+            id: 'PISA2',
+            alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'În prima fază, din fiecare țară sunt selectate cel puțin 150 de școli, care contribuie în jur de 42 de elevi din populația țintă. Cei selectați sunt atribuiți cu ponderi, astfel încât rezultatele să poată fi scalate pe toată populația de copii de 15 ani în învățământ. În anul 2018 aproximativ <span class="highlight">600.000</span> de elevi au participat la PISA, din rezultatele cărora au fost deduse informații legate de situația a <span class="highlight">32 milioane</span> de elevi de 15 ani!',
+            description: '<a target="_blank" href="https://www.oecd.org/about/">Organizația pentru Cooperare și Dezvoltare Economică</a> stă de mai bine de 20 de ani în spatele testării la nivel global a elevilor în vârstă de 15 ani, aflați în clasa a IX-a, a X-a sau a XI-a, după caz. La aceste teste participă elevii din statele membre OCDE, statele în curs de aderare <a target="_blank" href="https://www.mae.ro/node/1481">(aici se încadrează și România)</a> și state partenere. În total, 79 de țări.',
             location: {
                 center: [2.269630, 48.861190],
                 zoom: 15,
@@ -146,7 +171,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '5',
+            id: 'Diagrama1',
             alignment: 'center',
             hidden: false,
             title: '',
