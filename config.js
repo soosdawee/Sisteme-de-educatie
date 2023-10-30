@@ -124,12 +124,12 @@ var config = {
             id: 'PISA1',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Cum funcționează testele PISA și de ce chinezii sunt campioni </h3>',
+            title: '<h3>Cum funcționează testele PISA și de ce chinezii sunt campioni</h3>',
             image: '',
             description: 'Testele PISA au ajuns principala metodă de a raporta și măsura, la nivel global, tendințele și progresele legate de învățământ și de a analiza cum se îmbină aptitudinile elevilor cu factori demografici, sociali, economici și educaționali.',
             location: {
-                center: [2.269630, 48.861190],
-                zoom: 10,
+                center: [2.352222, 48.856613],
+                zoom: 8,
                 pitch: 20,
                 bearing: 10,
                 // flyTo additional controls-
@@ -169,7 +169,7 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
+        },  
         {
             id: 'Diagrama1',
             alignment: 'center',
@@ -196,16 +196,16 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '6',
+            id: 'Romania1',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Inventorii testelor standardizate pe primul loc</h3>',
+            title: '',
             image: '',
-            description: 'În timpul dinastiei Han (206 BC – 220 AD) al Chinei Imperiale <a target="_blank" href="https://www.britannica.com/topic/Chinese-civil-service">este introdusă testarea standardizată</a> pentru a determina aptitudinea candidaților la funcții publice, pentru prima oară în lume. Două milenii mai târziu Beijing, Shanghai, Jiangsu și Zhejiang urcă pe primul loc al clasamentului PISA. Probabil nu este de mirare faptul că următorele trei state sunt Singapore, Macao și Hong Kong, toți din Asia Orientală. Succesul acestor state și regiuni poate fi datorat, în mare parte atitudinii serioase față de tot ceea ce înseamnă lectură. În 2015 teritoriile chineze raportau în chestionarul de bunăstare că <span class="highlight">40% din elevii de 15 studiau minim 60 de ore pe săptămână</span>.',
+            description: 'România a obținut, la testele din 2018, cele mai slabe rezultate ale sale, de când ia parte la PISA, și se află undeva sub mijlocul clasamentului general, la grupa țărilor încadrate la nivelul 2 din 4, în funcție de rezultate.',
             location: {
-                center: [121.034859, 14.418530],
-                zoom: 5,
-                pitch: 50,
+                center: [24.966761, 45.943161],
+                zoom: 6,
+                pitch: 10,
                 bearing: 20,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -221,15 +221,15 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '7',
-            alignment: 'center',
+            id: 'PISA3',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
-            description:' <a target="_blank" href="https://documents1.worldbank.org/curated/en/876861593415668827/pdf/East-Asia-and-Pacific-Regional-Brief-Programme-for-International-Student-Assessment-PISA-2018.pdf">Datele din Asia de Est ne arată</a> că cel mai de influență factor în regiune este statutul socio-economic. Cei avantajați din acest punct de vedere, au în medie, un scor cu <span class="highlight">75 de puncte</span> mai mare la proba de Citire. Aproape jumătate dintre elevii chinezi se încadrează în Nivelul 5 sau 6 la măcar o probă, iar aprope nimeni nu este lăsat în urmă, cu numai 1,1% din copii de 15 ani neatingând nivelul de competență minimă la toate trei probe.',
+            description: 'Testările PISA au loc o dată la 3 ani și au început în anul 2000, iar cea mai recentă ediție, cu datele procesate și publicate, este cea din 2018. <a target="_blank" href="https://www.oecd.org/pisa/data/2018database/">Chestionarele</a> se adresează atât copiilor, cât și celor care le asigură educația (părinți, profesori, directori) și culeg date despre abilitatea lor de a citi, a înțelege, a interpreta sau a rezolva probleme, dar și despre bunăstarea sau aspirațiile lor în carieră.',
             location: {
-                center: [116.407394, 14.418530],
-                zoom: 5,
+                center: [25.485830, 42.733883],
+                zoom: 3,
                 pitch: 0,
                 bearing: 0,
                 // flyTo additional controls-
@@ -246,7 +246,107 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '8',
+            id: 'PISA4',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'În anul 2018, aproximativ <span class="highlight">600.000</span> de elevi au participat la PISA, din rezultatele cărora au fost deduse informații legate de situația a <span class="highlight">32 milioane</span> de elevi de 15 ani.',
+            location: {
+                center: [25.485830, 42.733883],
+                zoom: 3,
+                pitch: 0,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'China',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Cele mai bune rezultate le-au obținut copiii din China. O parte din explicație ține și de tradiția chineză. În timpul dinastiei Han (206 î.e.n – 220 e.n.) a Chinei Imperiale, <a target="_blank" href="https://www.britannica.com/topic/Chinese-civil-service">a fost introdusă testarea standardizată</a>, pentru a determina aptitudinea candidaților la funcții publice, pentru prima oară în lume. Două milenii mai târziu, provinciile chineze Beijing, Shanghai, Jiangsu și Zhejiang se află pe primul loc al clasamentului PISA. De altfel, următorele trei state clasate sunt Singapore, Macao și Hong Kong, toate din Asia Orientală. Succesul acestor state și regiuni poate fi datorat, în mare parte, atitudinii dedicate față de tot ceea ce înseamnă lectură. În 2015, teritoriile chineze raportau în chestionarul de bunăstare că <span class="highlight">40% din elevii de 15 ani studiau minimum 60 de ore pe săptămână</span>.',
+            location: {
+                center: [113.419724, 22.869940],
+                zoom: 5,
+                pitch: 50,
+                bearing: 20,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Asia de est1',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description:' <a target="_blank" href="https://documents1.worldbank.org/curated/en/876861593415668827/pdf/East-Asia-and-Pacific-Regional-Brief-Programme-for-International-Student-Assessment-PISA-2018.pdf">Datele din Asia de Est ne arată</a> că cel mai influent factor în regiune este statutul socio-economic. Cei avantajați din acest punct de vedere, au în medie, un scor cu <span class="highlight">75 de puncte</span> mai mare la proba de Citire. Aproape jumătate dintre elevii chinezi se încadrează în Nivelul 5 sau 6 la cel puțin o probă. Aprope niciun elev nu este lăsat în urmă. Doar 1,1% din copii de 15 ani nu ating nivelul de competență minimă la toate cele trei probe.',
+            location: {
+                center: [120.960518, 23.697809],
+                zoom: 3,
+                pitch: 0,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Asia de est2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Proporția de elevi care rămân în urmă cu evoluția abilităților în școală are o importanță majoră pentru tabloul general al educației dintr-o țară. În harta de mai jos puteți compara situația din câteva țări care participă la testele PISA. În România, procentul elevilor de 15 ani rămași în urmă cu citirea, matematica și științele se ridica la 30%.',
+            location: {
+                center: [120.960518, 23.697809],
+                zoom: 3,
+                pitch: 0,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Diagram2',
             alignment: 'center',
             hidden: false,
             title: '',
@@ -271,12 +371,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '9',
+            id: 'Korea',
             alignment: 'right',
             hidden: false,
-            title: '<h3>Programul Semestrului de Învățare Liberă</h3>',
+            title: '<h3>Exemplul Coreei de Sud: Programul Semestrului de Învățare Liberă</h3>',
             image: '',
-            description:'În ciuda faptului că sistemul bine-cunoscut din zonă aduce rezultate, Coreea de Sud a decis să piloteze un proiect inovativ, anume <a target="_blank" href="https://www.oecd.org/education/career-readiness/Example%20of%20Practice,%20Korea,%20Free%20Semester%20Programmepdf.pdf">Programul Semestrului de Învățare Liberă</a>. Elevii au putut să petreacă o jumătate de an fără grija testelor, învățând numai 21 de ore, în loc de 33, în modul obișnuit. În timpul râmas, puteau să aleagă dintre activitâți prin care învățau pe bază pe muncă, inclusiv implicarea în comunitatea locală, programe sportive și artistice. Singurul criteriu era ca școala să accepte. Inițiativa a fost un succes atât de mare, încât aceasta a fost adoptată la nivel național în marea majoritate a gimnaziilor.',
+            description:'În ciuda faptului că sistemul său de educație aduce rezultate bune, Coreea de Sud a decis să piloteze un proiect inovativ, numit <a target="_blank" href="https://www.oecd.org/education/career-readiness/Example%20of%20Practice,%20Korea,%20Free%20Semester%20Programmepdf.pdf">Programul Semestrului de Învățare Liberă</a>. Elevii coreeni au putut să petreacă o jumătate de an fără grija testelor, învățând numai 21 de ore pe săptămână, în loc de 33, în modul obișnuit. În timpul rămas, puteau să aleagă dintre activități prin care învățau pe bază pe muncă, inclusiv implicarea în comunitatea locală, programe sportive și artistice. Singurul criteriu era ca școala să accepte. Inițiativa a fost un succes atât de mare, încât a fost adoptată la nivel național, în majoritatea gimnaziilor.',
             location: {
                 center: [127.814529, 35.965031],
                 zoom: 5,
@@ -296,12 +396,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '10',
+            id: 'Finlanda',
             alignment: 'left',
             hidden: false,
-            title: '<h3>Abordări diferite, rezultate comparabile</h3>',
+            title: '<h3>„Asiaticii” educației din Europa: starul e Finlanda, dar Estonia o bate</h3>',
             image: '',
-            description: 'Ceea ce a părut ieșit din comun, progresiv în Asia, este un semestru oarecare pentru finlandezi, care nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru studii - timp liber, este atestată și de datele PISA. <span class="highlight">Numai 4,1% din elevii de 15 ani petrec mai mult decât 60 de ore pe săptămână învățând</span>.',
+            description: 'Dacă ceea ce se întâmplă în sistemul de educație performant din Coreea de Sud poate părea ieșit din comun pentru un european, nu este cazul și pentru finlandezi. Acolo, așa arată un semestru oarecare pentru elevi. Școlile nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru între studii și timp liber dă rezultate bune, atestate și de datele PISA.  <span class="highlight">Numai 4,1% din elevii de 15 ani din Finlanda petrec mai mult decât 60 de ore pe săptămână învățând</span>.',
             location: {
                 center: [23.748152, 60.924110],
                 zoom: 5,
@@ -322,11 +422,11 @@ var config = {
         },
         {
             id: '11',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: '',
-            description: 'Chiar și Examenul de Matriculare (versiunea finlandeză a Bacalaureatului) este neobișnuit. Acesta este ținut în fiecare an de două ori, în primăvară și în toamnă, iar elevii pot să încerce oricare probă în trei perioade consecutive de examinare. Numai limba maternă este obligatorie, restul, minim 4 subiecte trebuie alese din cel puțin trei dintre posibilele grupuri: matematică, a doua limbă oficială a țării, limbi străine, științe umaniste sau ale naturii. Recordul pentru cele mai multe probe reușite cu calificativul maxim (laudatur) este 12, obținut în anul 2016.',
+            description: 'Chiar și Examenul de Matriculare (versiunea finlandeză a Bacalaureatului) este neobișnuit. Acesta este ținut în fiecare an de două ori, în primăvară și în toamnă, iar elevii pot să încerce oricare probă în trei perioade consecutive de examinare. Numai limba maternă este obligatorie, restul – minimum 4 probe –  trebuie alese din cel puțin 3 grupuri de materii: matematică, a doua limbă oficială a țării, limbi străine, științe umaniste sau științe ale naturii. Recordul pentru cele mai multe probe reușite cu calificativul maxim (laudatur) este 12, obținut în anul 2016.',
             location: {
                 center: [23.748152, 60.924110],
                 zoom: 5,
@@ -346,12 +446,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '12',
+            id: 'Estonia1',
             alignment: 'right',
             hidden: false,
             title: '',
             image: '',
-            description: 'Din Europa, numai rezultatele Estoniei la PISA îi întrec pe ale Finlandei, care în același timp este și fruntașul membrilor OCDE. Elevii estoni sunt cei mai optimiști în privința progresului prin educație, 77% dintre ei crezând că <span class="highlight">inteligența este schimbabilă</span>.',
+            description: 'Din Europa, numai rezultatele Estoniei la PISA le întrec pe ale Finlandei. Elevii estoni au cele mai bune rezultate din statele membre OCDE. Tot ei sunt și cei mai optimiști în privința progresului prin educație: 77% cred că <span class="highlight">inteligența unei persoane poate fi modificată</span>.',
             location: {
                 center: [24.753574, 59.436962],
                 zoom: 10,
@@ -371,12 +471,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '13',
+            id: 'Estonia2',
             alignment: 'right',
             hidden: false,
             title: '',
             image: '',
-            description: 'Succesul țării izvorăște din autonomia școlilor în a determina curriculumul, și nu numai. Directorii sunt responsabili pentru atribuirea bugetului, dar și pentru angajarea, evaluarea și după caz concedierea profesorilor. Competiția între școlile municipale pentru a atrage fonduri este un alt factor important. Acestea primesc finanțare pe baza numărului de elevi, astfel le este în interes să ofere educație de cea mai înaltă calitate și să aibă clase cât mai pline. Îmbinând acest fapt cu <a target="_blank" href="https://www.oecd.org/about/">scăderea de 15% a populației estone</a> în ultimii 30 de ani, se conturează un sistem competitiv, care răsplătește inovația și condamnă indiferența.',
+            description: 'Succesul educației din Estonia are o posibilă explicație în autonomia școlilor de a-și stabili singure curriculumul și nu numai. Directorii sunt responsabili pentru alocarea bugetului, dar și pentru angajarea, evaluarea și concedierea profesorilor. Competiția între școlile municipale (cele mai multe, care sunt finanțate de autoritățile locale, via bugetul de stat), pentru a atrage fonduri, este un alt factor important. Acestea primesc finanțare pe baza numărului de elevi, astfel că sunt interesate să ofere educație de cea mai înaltă calitate și să aibă clase cât mai pline. Ținând cont și de <a target="_blank" href="https://www.oecd.org/about/">scăderea de 15% a populației estone</a>, în ultimii 30 de ani, sistemul de educație din statul baltic iese în evidență prin competitivitate și prin faptul că răsplătește inovația și condamnă indiferența.',
             location: {
                 center: [24.741340, 59.430190],
                 zoom: 14,
@@ -396,7 +496,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '14',
+            id: 'Diagram3',
             alignment: 'center',
             hidden: false,
             title: '',
@@ -421,12 +521,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '15',
+            id: 'Profi1',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Asistenți sociali, asistenți medicali, bibliotecari, funcționari sau medici?</h3>',
+            title: '<h3>Cum îi privim pe profesori în societate și cum îi plătim</h3>',
             image: '',
-            description: 'Această întrebare a fost pusă de The Global Teacher Status Index 2018 în 35 de țări pentru a afla atitudinea oamenilor față de profesori. În China, Malaysia și Rusia, oamenii percep munca unui profesor asemănătoare cu munca unui medic, în timp ce publicul din jumătatea statelor studiate a optat pentru opțiunea de asistent social. Din răspunsuri reiese nu numai ce poziție ocupă dascălii în ierarhiile sociale, ci și părerea oamenilor în legătură cu salarizarea acestora. Cercetarea conclude că remunerația cadrelor didactice, respectul față de meserie în societate și rezultatele PISA se află în strânsă legătură.',
+            description: 'Ca în orice sistem din care vrei să obții rezultate de calitate, resursa umană este extrem de importantă. Educația nu face excepție. Un prim pas poate fi modul în care ne raportăm, ca societate, la rolul dascălilor: sunt ei mai degrabă asistenți sociali, asistenți medicali, bibliotecari, funcționari sau medici? Această întrebare a fost pusă de <a target="_blank" href="https://www.varkeyfoundation.org/media/4867/gts-index-13-11-2018.pdf">The Global Teacher Status Index 2018</a>, în 35 de țări (România nu a participat la studiu), pentru a afla atitudinea oamenilor față de profesori. În China, Malaysia și Rusia, oamenii percep munca unui profesor ca fiind mai asemănătoare cu munca unui medic. În peste jumătate din statele studiate, oamenii au optat pentru asemănarea cu rolul de asistent social. Din răspunsuri, reiese nu numai ce poziție ocupă dascălii în ierarhiile sociale, ci și părerea oamenilor în legătură cu salarizarea acestora. Cercetarea ajunge la concluzia că remunerația cadrelor didactice, respectul față de meserie în societate și rezultatele PISA se află în strânsă legătură.',
             location: {
                 center: [46.825038, 103.849973],
                 zoom: 4,
@@ -446,7 +546,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '16',
+            id: 'Diagram4',
             alignment: 'center',
             hidden: false,
             title: '',
@@ -471,12 +571,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '17',
+            id: 'Pay1',
             alignment: 'center',
             hidden: false,
             title: '',
             image: '',
-            description: 'Progresul este forța, care îndeamnă orice om să fie motivat, să continue un obicei sau să capete avânt într-o și mai mare măsură. Niciun antreprenor nu ar continua să-și construiacă afacerea, dacă nu ar avea, măcar în fața ochilor spirituali, posibilitatea avansării viitoare. Niciun sportiv nu ar da tot ce poate, dacă nu ar spera din tot sufletul la atingerea scopurilor sale. Sunt mulți factori care determină dacă vocația stârnește sau nu un sentiment de împlinire, și acestea diferă de la om la om, însă nu mulți oameni își permit să ignore complet latura financiară a meseriei lor. În mod special, dacă obținerea postului implică mai mulți ani de studiu.',
+            description: 'Progresul este forța care îndeamnă orice om să fie motivat, să continue un obicei sau să capete avânt într-o și mai mare măsură. Niciun antreprenor nu ar continua să-și construiască afacerea, dacă nu ar avea în minte posibilitatea progresului. Niciun sportiv nu ar da tot ce poate, dacă nu ar spera din tot sufletul că își va atinge scopurile de performanță viitoare. Despre profesori, se spune adesea că ar trebui să facă această meserie din vocație și pasiune, nu pentru bani. Cum reușește vocația să stârnească sau nu un sentiment de împlinire diferă de la om la om. Totuși, nu mulți dintre noi își permit să ignore complet latura financiară a meseriei lor. În mod special, dacă un job în acel domeniu implică mai mulți ani de studiu. Profesorii nu sunt cu nimic mai prejos sau mai diferiți, din aceste puncte de vedere. În graficul de mai jos, vedem cum progresează financiar, în timp, profesorii din diverse țări. ',
             location: {
                 center: [15.9622315, 45.8426414],
                 zoom: 5,
@@ -496,7 +596,32 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '18',
+            id: 'Romania2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'România nu stă cel mai rău, însă progresul salarial, în medie, este minor. După 10 ani de meserie, un profesor câștigă în medie cu 19% mai mult decât la început. După încă 5 ani de la acel moment, adică la 15 ani de la debut, progresul salarial mai crește cu încă doar 8%.',
+            location: {
+                center: [24.966761, 45.943161],
+                zoom: 6,
+                pitch: 10,
+                bearing: 20,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Diagram5',
             alignment: 'center',
             hidden: false,
             title: '',
@@ -516,6 +641,31 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Ending',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Cu atâtea variabile aflate în joc, pentru a determina performanța unui sistem de educație, România mai are încă mult de lucru, de la modul în care își formează elevii în școli, până la modul în care își tratează, societal și financiar, profesorii. Exemplele bune există peste tot în lume, trebuie doar găsită calea către ele.',
+            location: {
+                center: [24.966761, 45.943161],
+                zoom: 6,
+                pitch: 10,
+                bearing: 20,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
