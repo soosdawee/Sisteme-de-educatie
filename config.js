@@ -12,7 +12,7 @@ var config = {
     auto: false,
     title: '<span style="font-family:sans-serif; background-color: #ffffff; padding: 0.5vh; border-radius: 10px; color:#000000; font-size:1.2rem" >Educația</span>',
     subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:2.3rem" >INTERACTIV | Ingredientele campionilor în educație. Cum ajunge un sistem școlar să producă performanță</span>',
-    byline: 'Soós Dávid <p> <img src="./scroll.png"> </p> <p> scroll </p>',
+    byline: 'Dávid Soós<p> <img src="./scroll.png"> </p> <p> scroll </p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a>',
     chapters: [
         {
