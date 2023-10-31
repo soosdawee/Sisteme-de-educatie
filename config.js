@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/soosdavid/cllqwo97o008d01nzg0a68ii5',
-    accessToken: 'pk.eyJ1Ijoic29vc2RhdmlkIiwiYSI6ImNsa2dzdXF4MzAzeHgzbWtldXUwd2xmam0ifQ.qD3EymMISpst4I56PAcY8w',
+    accessToken: 'pk.eyJ1Ijoic29vc2RhdmlkIiwiYSI6ImNsb2VwM3JncTBqNHIyaW4wZDZ1a3Rkd3UifQ.d8tyhk3QTH4FM3_qsQuixA',
     showMarkers: false,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
@@ -115,7 +115,7 @@ var config = {
                 //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'jumpTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -440,7 +440,7 @@ var config = {
                 //curve: 1, // change the speed at which it zooms out
             },
             mapAnimation: 'jumpTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
