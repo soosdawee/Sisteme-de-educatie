@@ -13,7 +13,7 @@ var config = {
     title: '<span style="font-family:sans-serif; background-color: #ffffff; padding: 0.5vh; border-radius: 10px; color:#000000; font-size:1.2rem" >Educația</span>',
     subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:2.3rem" >INTERACTIV | Ingredientele campionilor în educație. Cum ajunge un sistem școlar să producă performanță</span>',
     byline: 'Dávid Soós<p> <img src="./scroll.png"> </p> <p> scroll </p>',
-    footer: '<p style="margin-top:1px; margin-bottom:1px;"><b>06 noiembrie 2023 </b></p> <p style="margin-top:1px; margin-bottom:1px;"><b>Sursa datelor:</b> European Commission/EACEA/Eurydice, Estonian Education Information System, OECD <br> Material editat de: <a href="https://panorama.ro/author/andrei-luca-popescu/" target="_blank">Andrei Luca Popescu</a> </p>',
+    footer: '<p style="margin-top:1px; margin-bottom:1px;"><b>15 noiembrie 2023 </b></p> <p style="margin-top:1px; margin-bottom:1px;"><b>Sursa datelor:</b> European Commission/EACEA/Eurydice, Estonian Education Information System, OECD <br> Material editat de: <a href="https://panorama.ro/author/andrei-luca-popescu/" target="_blank">Andrei Luca Popescu</a> </p>',
     chapters: [
         {
             id: 'slug-style-id',
