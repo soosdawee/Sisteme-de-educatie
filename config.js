@@ -174,9 +174,9 @@ var config = {
             id: 'Diagrama1',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Evoluția la testele PISA</h3>',
+            title: '',
             image: '',
-            description: 'Rezultatele câtorva țări, din cele 79 care participă la testare. <b>Click pe grafic, pentru a afla mai multe detalii despre evoluție. </b> <iframe src="https://flo.uri.sh/visualisation/15635075/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15635075/?utm_source=embed&utm_campaign=visualisation/15635075" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/15651454/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15651454/?utm_source=embed&utm_campaign=visualisation/15651454" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
                 center: [2.269630, 48.861190],
                 zoom: 18,
@@ -349,9 +349,9 @@ var config = {
             id: 'Diagram2',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Elevii nimănui. Câți rămân în urmă la școală?<\h3>',
+            title: '',
             image: '',
-            description: 'Procentajul elevilor care au obținut sub Nivelul 2 pe cele trei probe PISA. <b>Caută o țară sau dă zoom și click pe hartă pentru detalii!</b> <iframe src="https://flo.uri.sh/visualisation/15626138/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15626138/?utm_source=embed&utm_campaign=visualisation/15626138" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div> ',
+            description: '<iframe src="https://flo.uri.sh/visualisation/15626138/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15626138/?utm_source=embed&utm_campaign=visualisation/15626138" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div> ',
             location: {
                 center: [116.407394, 14.418530],
                 zoom: 5,
@@ -401,7 +401,7 @@ var config = {
             hidden: false,
             title: '<h3>„Asiaticii” educației din Europa: starul e Finlanda, dar Estonia o bate</h3>',
             image: '',
-            description: 'Dacă ceea ce se întâmplă în sistemul de educație performant din Coreea de Sud poate părea ieșit din comun pentru un european, nu este cazul și pentru finlandezi. Acolo, așa arată un semestru oarecare pentru elevi. Școlile nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru între studii și timp liber dă rezultate bune, atestate și de datele PISA.  <span class="highlight">Numai 4,1% din elevii de 15 ani din Finlanda petrec mai mult decât 60 de ore pe săptămână învățând</span>.',
+            description: 'Dacă ceea ce se întâmplă în sistemul de educație performant din Coreea de Sud poate părea ieșit din comun pentru un european, nu este cazul și pentru finlandezi. Acolo, așa arată un semestru oarecare pentru elevi. Școlile nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru între studii și timp liber dă rezultate bune, atestate și de datele PISA.  <span class="highlight">Numai 4,1% din elevii de 15 ani din Finlanda petrec mai mult decât 60 de ore pe săptămână învățând.</span>',
             location: {
                 center: [23.748152, 60.924110],
                 zoom: 5,
