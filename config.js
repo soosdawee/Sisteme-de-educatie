@@ -401,7 +401,7 @@ var config = {
             hidden: false,
             title: '<h3>„Asiaticii” educației din Europa: starul e Finlanda, dar Estonia o bate</h3>',
             image: '',
-            description: 'Dacă ceea ce se întâmplă în sistemul de educație performant din Coreea de Sud poate părea ieșit din comun pentru un european, nu este cazul și pentru finlandezi. Acolo, așa arată un semestru oarecare pentru elevi. Școlile nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru între studii și timp liber dă rezultate bune, atestate și de datele PISA.  <span class="highlight">Numai 4,1% din elevii de 15 ani din Finlanda petrec mai mult decât 60 de ore pe săptămână învățând.</span>',
+            description: 'Dacă ceea ce se întâmplă în sistemul de educație performant din Coreea de Sud poate părea ieșit din comun pentru un european, nu este cazul și pentru finlandezi. Acolo, așa arată un semestru oarecare pentru elevi. Școlile nu folosesc aproape deloc testele ca unelte pentru a măsura competențele elevilor. Atitudinea relaxată și orientată mai mult spre curiozitate și echilibru între studii și timp liber dă rezultate bune, atestate și de datele PISA.  <span class="highlight">Numai 4,1% din elevii de 15 ani din Finlanda petrec mai mult de 60 de ore pe săptămână învățând.</span>',
             location: {
                 center: [23.748152, 60.924110],
                 zoom: 5,
