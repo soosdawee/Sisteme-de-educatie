@@ -176,7 +176,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<iframe src="https://flo.uri.sh/visualisation/15635075/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15635075/?utm_source=embed&utm_campaign=visualisation/15635075" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/15635075/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:500px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15635075/?utm_source=embed&utm_campaign=visualisation/15635075" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
                 center: [2.269630, 48.861190],
                 zoom: 18,
@@ -276,7 +276,32 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Cele mai bune rezultate le-au obținut copiii din China. O parte din explicație ține și de tradiția chineză. În timpul dinastiei Han (206 î.e.n – 220 e.n.) a Chinei Imperiale, <a target="_blank" href="https://www.britannica.com/topic/Chinese-civil-service">a fost introdusă testarea standardizată</a>, pentru a determina aptitudinea candidaților la funcții publice, pentru prima oară în lume. Două milenii mai târziu, provinciile chineze Beijing, Shanghai, Jiangsu și Zhejiang se află pe primul loc al clasamentului PISA. De altfel, următoarele trei state clasate sunt Singapore, Macao și Hong Kong, toate din Asia Orientală. Succesul acestor state și regiuni poate fi datorat, în mare parte, atitudinii dedicate față de tot ceea ce înseamnă lectură. În 2015, teritoriile chineze raportau în chestionarul de bunăstare că <span class="highlight">40% din elevii de 15 ani studiau minimum 60 de ore pe săptămână</span>.',
+            description: 'Cele mai bune rezultate le-au obținut copiii din China. O parte din explicație ține și de tradiția chineză. În timpul dinastiei Han (206 î.e.n – 220 e.n.) a Chinei Imperiale, <a target="_blank" href="https://www.britannica.com/topic/Chinese-civil-service">a fost introdusă testarea standardizată</a>, pentru a determina aptitudinea candidaților la funcții publice, pentru prima oară în lume. Două milenii mai târziu, provinciile chineze Beijing, Shanghai, Jiangsu și Zhejiang se află pe primul loc al clasamentului PISA. De altfel, următoarele trei state clasate sunt Singapore, Macao și Hong Kong, toate din Asia Orientală.',
+            location: {
+                center: [113.419724, 22.869940],
+                zoom: 5,
+                pitch: 50,
+                bearing: 20,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'China2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Succesul acestor state și regiuni poate fi datorat, în mare parte, atitudinii dedicate față de tot ceea ce înseamnă lectură. În 2015, teritoriile chineze raportau în chestionarul de bunăstare că <span class="highlight">40% din elevii de 15 ani studiau minimum 60 de ore pe săptămână</span>.',
             location: {
                 center: [113.419724, 22.869940],
                 zoom: 5,
@@ -501,7 +526,7 @@ var config = {
             hidden: false,
             title: '<h3>Numărul elevilor în școlile din Estonia<\h3>',
             image: '',
-            description: '<iframe src="https://flo.uri.sh/visualisation/14871050/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/14871050/?utm_source=embed&utm_campaign=visualisation/14871050" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/14871050/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:400px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/14871050/?utm_source=embed&utm_campaign=visualisation/14871050" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
                 center: [24.753574, 59.436962],
                 zoom: 10,
@@ -526,7 +551,32 @@ var config = {
             hidden: false,
             title: '<h3>Cum îi privim pe profesori în societate și cum îi plătim</h3>',
             image: '',
-            description: 'Ca în orice sistem din care vrei să obții rezultate de calitate, resursa umană este extrem de importantă. Educația nu face excepție. Un prim pas poate fi modul în care ne raportăm, ca societate, la rolul dascălilor: sunt ei mai degrabă asistenți sociali, asistenți medicali, bibliotecari, funcționari sau medici? Această întrebare a fost pusă de <a target="_blank" href="https://www.varkeyfoundation.org/media/4867/gts-index-13-11-2018.pdf">The Global Teacher Status Index 2018</a>, în 35 de țări (România nu a participat la studiu), pentru a afla atitudinea oamenilor față de profesori. În China, Malaysia și Rusia, oamenii percep munca unui profesor ca fiind mai asemănătoare cu munca unui medic. În peste jumătate din statele studiate, oamenii au optat pentru asemănarea cu rolul de asistent social. Din răspunsuri, reiese nu numai ce poziție ocupă dascălii în ierarhiile sociale, ci și părerea oamenilor în legătură cu salarizarea acestora. Cercetarea ajunge la concluzia că remunerația cadrelor didactice, respectul față de meserie în societate și rezultatele PISA se află în strânsă legătură.',
+            description: 'Ca în orice sistem din care vrei să obții rezultate de calitate, resursa umană este extrem de importantă. Educația nu face excepție. Un prim pas poate fi modul în care ne raportăm, ca societate, la rolul dascălilor: sunt ei mai degrabă asistenți sociali, asistenți medicali, bibliotecari, funcționari sau medici? Această întrebare a fost pusă de <a target="_blank" href="https://www.varkeyfoundation.org/media/4867/gts-index-13-11-2018.pdf">The Global Teacher Status Index 2018</a>, în 35 de țări (România nu a participat la studiu), pentru a afla atitudinea oamenilor față de profesori.',             
+            location: {
+                center: [46.825038, 103.849973],
+                zoom: 4,
+                pitch: 0,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Profi2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'În China, Malaysia și Rusia, oamenii percep munca unui profesor ca fiind mai asemănătoare cu munca unui medic. În peste jumătate din statele studiate, oamenii au optat pentru asemănarea cu rolul de asistent social. Din răspunsuri, reiese nu numai ce poziție ocupă dascălii în ierarhiile sociale, ci și părerea oamenilor în legătură cu salarizarea acestora. Cercetarea ajunge la concluzia că remunerația cadrelor didactice, respectul față de meserie în societate și rezultatele PISA se află în strânsă legătură.',
             location: {
                 center: [46.825038, 103.849973],
                 zoom: 4,
@@ -549,9 +599,9 @@ var config = {
             id: 'Diagram4',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Cât câștigă un profesor, raportat la salariul minim?<\h3>',
+            title: '',
             image: '',
-            description: 'Salariul minim (cercul roz) și salariul mediu brut anual (cercul albastru) al unui profesor cu vârsta de 25-64 de ani, care predă într-o școală de stat. <b>Click pe hartă pentru detalii.</b> <iframe src="https://flo.uri.sh/visualisation/15626431/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15626431/?utm_source=embed&utm_campaign=visualisation/15626431" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/15626431/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:500px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/15626431/?utm_source=embed&utm_campaign=visualisation/15626431" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
                 center: [15.9622315, 45.8426414],
                 zoom: 5,
@@ -576,7 +626,32 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Progresul este forța care îndeamnă orice om să fie motivat, să continue un obicei sau să capete avânt într-o și mai mare măsură. Niciun antreprenor nu ar continua să-și construiască afacerea, dacă nu ar avea în minte posibilitatea progresului. Niciun sportiv nu ar da tot ce poate, dacă nu ar spera din tot sufletul că își va atinge scopurile de performanță viitoare. Despre profesori, se spune adesea că ar trebui să facă această meserie din vocație și pasiune, nu pentru bani. Cum reușește vocația să stârnească sau nu un sentiment de împlinire diferă de la om la om. Totuși, nu mulți dintre noi își permit să ignore complet latura financiară a meseriei lor. În mod special, dacă un job în acel domeniu implică mai mulți ani de studiu. Profesorii nu sunt cu nimic mai prejos sau mai diferiți, din aceste puncte de vedere. În graficul de mai jos, vedem cum progresează financiar, în timp, profesorii din diverse țări. ',
+            description: 'Progresul este forța care îndeamnă orice om să fie motivat, să continue un obicei sau să capete avânt într-o și mai mare măsură. Niciun antreprenor nu ar continua să-și construiască afacerea, dacă nu ar avea în minte posibilitatea progresului. Niciun sportiv nu ar da tot ce poate, dacă nu ar spera din tot sufletul că își va atinge scopurile de performanță viitoare.',             
+            location: {
+                center: [15.9622315, 45.8426414],
+                zoom: 5,
+                pitch: 20,
+                bearing: 20,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'Pay2',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Despre profesori, se spune adesea că ar trebui să facă această meserie din vocație și pasiune, nu pentru bani. Cum reușește vocația să stârnească sau nu un sentiment de împlinire diferă de la om la om. Totuși, nu mulți dintre noi își permit să ignore complet latura financiară a meseriei lor. În mod special, dacă un job în acel domeniu implică mai mulți ani de studiu. Profesorii nu sunt cu nimic mai prejos sau mai diferiți, din aceste puncte de vedere. În graficul de mai jos, vedem cum progresează financiar, în timp, profesorii din diverse țări. ',
             location: {
                 center: [15.9622315, 45.8426414],
                 zoom: 5,
@@ -624,9 +699,9 @@ var config = {
             id: 'Diagram5',
             alignment: 'center',
             hidden: false,
-            title: '<h3>Cum progresează financiar un profesor în carieră? </h3>',
+            title: '',
             image: '',
-            description: 'Majorările salariale, în procente, la 10 ani de la debut și la încă 5 ani după aceea (15 ani). <b>Click pe grafic pentru detalii</b> – sume și calificare minimă pentru a preda. <iframe src="https://flo.uri.sh/visualisation/14847763/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="yes" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/14847763/?utm_source=embed&utm_campaign=visualisation/14847763" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: '<iframe src="https://flo.uri.sh/visualisation/14847763/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="yes" style="width:100%;height:450px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/14847763/?utm_source=embed&utm_campaign=visualisation/14847763" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
                 center: [15.9622315, 45.8426414],
                 zoom: 5,
